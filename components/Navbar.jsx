@@ -5,7 +5,7 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@n
 
 export default function MyNav() {
   return (
-    <Navbar className="flex">
+    <Navbar className="flex py-4 px-4">
       <NavbarContent className="flex justify-between w-full">
         <NavbarBrand>
           <p className="font-bold text-inherit">GuessIt</p>
