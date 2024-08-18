@@ -1,9 +1,9 @@
-import Image from "next/image";
+import MyNav from "../components/Navbar.jsx";
 
 export default function Home() {
   return (
     <>
-      <h1>Here we go, this time for good</h1>
+      <MyNav />
     </>
   );
 }
